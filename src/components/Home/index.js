@@ -17,7 +17,7 @@ const Home = () => {
       
         timeout = setTimeout(() => {
           setLetterClass("text-animate-hover");
-        }, 3000);
+        }, 4000);
         
         //You should always clear the timeout or any interval on component unmount.
         return () => {
