@@ -17,7 +17,7 @@ const Home = () => {
       
         timeout = setTimeout(() => {
           setLetterClass("text-animate-hover");
-        }, 3000);
+        }, 4000);
         
         //You should always clear the timeout or any interval on component unmount.
         return () => {
@@ -58,6 +58,9 @@ const Home = () => {
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
                 </div>
                 <Logo />
+            </div>
+            <div>
+                <img src={LogoTitle} alt="my-logo"></img>
             </div>
             <Loader type="pacman" />
         </>
