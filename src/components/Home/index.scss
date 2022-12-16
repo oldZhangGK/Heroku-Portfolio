@@ -83,3 +83,27 @@ h2 {
         color:#333
     }
 }
+
+.home-logo{
+        float: right;
+        width: 20%;
+        height: 50%;
+        margin-top: 10%;
+        margin-right: 20%;
+
+        animation-name: rotation;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+      opacity: 0;
+    }
+    to {
+      transform: rotate(359deg);
+      opacity: 1;
+      
+    }
+  }

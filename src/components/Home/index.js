@@ -60,7 +60,7 @@ const Home = () => {
                 <Logo />
             </div>
             <div>
-                <img src={LogoTitle} alt="my-logo"></img>
+                <img src={LogoTitle} className="home-logo" alt="my-logo"></img>
             </div>
             <Loader type="pacman" />
         </>
